@@ -1,0 +1,44 @@
+{
+    "name": "Federation",
+    "federates": [
+        {
+            "name": "fed1",
+            "dependencies": [
+                {
+                    "type": "AND",
+                   "dependentFederatesInfo": [{"federateName":"fed2"},{"federateName":"fed3"}]
+                }
+
+            ]
+
+
+        },
+        {
+            "name": "fed2",
+            "dependencies": [
+                {
+                    "type": "OR",
+                     "dependentFederatesInfo": [{"federateName":"fed3"}]
+                }
+
+
+            ]
+
+
+        }
+        ,
+        {
+            "name": "fed3",
+            "dependencies": [{
+                    "type": "AND"
+                }
+
+            ]
+
+
+        }
+    ]
+
+}
+
+

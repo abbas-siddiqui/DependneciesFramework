@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objectModel xsi:schemaLocation="http://standards.ieee.org/IEEE1516-2010 http://standards.ieee.org/downloads/1516/1516.2-2010/IEEE1516-DIF-2010.xsd" xmlns="http://standards.ieee.org/IEEE1516-2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelIdentification>
+        <name>DependenciesDistributor1</name>
+        <type>FOM</type>
+        <version>1.0</version>      
+        <poc>
+            <pocType>Author</pocType>
+            <pocName>Abbas</pocName>
+            <pocOrg>FRS</pocOrg>
+            <pocTelephone>82368487</pocTelephone>
+            <pocEmail>@FRS</pocEmail>
+        </poc>       
+    </modelIdentification>
+    <objects>
+        <objectClass>
+            <name>HLAobjectRoot</name>
+            <objectClass>
+                <name>Federation</name>       
+                                 
+                <objectClass>
+                    <name>FederateState</name>                 
+                    <sharing>PublishSubscribe</sharing>                                
+                    <attribute>
+                        <name>State</name>
+                        <dataType>HLAASCIIstring</dataType>
+                        <updateType>Conditional</updateType>
+                        <updateCondition>New State</updateCondition>
+                        <ownership>DivestAcquire</ownership>
+                        <sharing>PublishSubscribe</sharing>
+                        <dimensions/>
+                        <transportation>HLAreliable</transportation>
+                        <order>TimeStamp</order>
+                        <semantics>Current State of a Federate</semantics>
+                    </attribute>
+                    <attribute>
+                        <name>UpdateDependnecy</name>
+                        <dataType>HLAASCIIstring</dataType>
+                        <updateType>Conditional</updateType>
+                        <updateCondition>My Dependencies</updateCondition>
+                        <ownership>DivestAcquire</ownership>
+                        <sharing>PublishSubscribe</sharing>
+                        <dimensions/>
+                        <transportation>HLAreliable</transportation>
+                        <order>TimeStamp</order>
+                        <semantics>New Dependnecy of a Federate</semantics>
+                    </attribute>
+                </objectClass>             
+            </objectClass>
+        </objectClass>
+    </objects>    
+</objectModel>

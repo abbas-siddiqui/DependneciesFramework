@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objectModel xsi:schemaLocation="http://standards.ieee.org/IEEE1516-2010 http://standards.ieee.org/downloads/1516/1516.2-2010/IEEE1516-DIF-2010.xsd" xmlns="http://standards.ieee.org/IEEE1516-2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelIdentification>
+        <name>DependenciesDistributor</name>
+        <type>FOM</type>
+        <version>1.0</version>
+        <modificationDate>2017-09-09</modificationDate>
+        <securityClassification>Unclassified</securityClassification>
+        <releaseRestriction>None so far</releaseRestriction>
+        <purpose>To distributed dependencies with a federation</purpose>
+        <applicationDomain>System of Systems</applicationDomain>
+        <description>Partial Dependencies Distribution for Federates</description>
+        <useLimitation>None so FAR</useLimitation>
+        <useHistory>Dependencies Distribution V1</useHistory>
+        <useHistory>Dependencies Distribution V2</useHistory>
+        <keyword>
+            <taxonomy>Dependencies</taxonomy>
+            <keywordValue>Dependencies Management</keywordValue>
+        </keyword>
+        <keyword>
+            <taxonomy>Dependencies</taxonomy>
+            <keywordValue>Federate</keywordValue>
+        </keyword>
+        <keyword>
+            <taxonomy>Dependencies</taxonomy>
+            <keywordValue>Parital Dependency Graph</keywordValue>
+        </keyword>
+        <poc>
+            <pocType>Author</pocType>
+            <pocName>Abbas</pocName>
+            <pocOrg>FRS</pocOrg>
+            <pocTelephone>82368487</pocTelephone>
+            <pocEmail>FRS</pocEmail>
+        </poc>       
+        <reference>
+            <type>Dependency</type>
+            <identification>Management Protocol</identification>
+        </reference>        
+        <reference>
+            <type>None</type>
+            <identification>whatever</identification>
+        </reference>
+        <other>Contact Author for more information</other>
+        <glyph alt="Unknown" width="74" height="74" type="jpg">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</glyph>
+    </modelIdentification>
+    <objects>
+        <objectClass>
+            <name>HLAobjectRoot</name>
+            <objectClass>
+                <name>DependenciesUpdate</name>
+                <sharing>PublishSubscribe</sharing>
+                <semantics>Federate Dependencies on Other Fedeates</semantics>
+                <attribute>
+                    <name>PartialDependency</name>
+                    <dataType>HLAASCIIstring</dataType>
+                    <updateType>Conditional</updateType>
+                    <updateCondition>New dependency Graph</updateCondition>
+                    <ownership>DivestAcquire</ownership>
+                    <sharing>PublishSubscribe</sharing>
+                    <dimensions/>
+                    <transportation>HLAreliable</transportation>
+                    <order>TimeStamp</order>
+                    <semantics>Dependencies on other federates within federation</semantics>
+                </attribute>
+            </objectClass>
+            <objectClass>
+                <name>HLAobjectRoot</name>
+                <sharing>Neither</sharing>
+                <attribute>
+                    <name>HLAprivilegeToDeleteObject</name>
+                    <dataType>HLAtoken</dataType>
+                    <updateType>Static</updateType>
+                    <updateCondition>NA</updateCondition>
+                    <ownership>DivestAcquire</ownership>
+                    <sharing>PublishSubscribe</sharing>
+                    <transportation>HLAreliable</transportation>
+                    <order>TimeStamp</order>
+                </attribute>
+            </objectClass>
+            <objectClass>
+                <name>Report</name>
+                <sharing>PublishSubscribe</sharing>
+                <attribute>
+                    <name>Status</name>
+                    <dataType>HLAunicodeString</dataType>
+                    <updateType>Static</updateType>
+                    <ownership>NoTransfer</ownership>
+                    <sharing>PublishSubscribe</sharing>
+                    <transportation>HLAbestEffort</transportation>
+                    <order>Receive</order>
+                </attribute>
+            </objectClass>
+        </objectClass>
+    </objects>
+    <interactions>
+        <interactionClass>
+            <name>HLAinteractionRoot</name>
+            <sharing>Neither</sharing>
+            <transportation>HLAreliable</transportation>
+            <order>TimeStamp</order>
+            <interactionClass>
+                <name>MessageExchange</name>
+                <sharing>PublishSubscribe</sharing>
+                <transportation>HLAreliable</transportation>
+                <order>Receive</order>
+                <parameter>
+                    <name>current_status</name>
+                    <dataType>HLAunicodeString</dataType>
+                </parameter>
+            </interactionClass>
+        </interactionClass>
+    </interactions>
+</objectModel>
+
